@@ -250,9 +250,7 @@ main {
 }
 .explore__image2 {
 	margin-top: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
+	margin-left: 200px;
 }
 
 .hero-icons {
