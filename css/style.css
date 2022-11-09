@@ -526,3 +526,118 @@ footer {
 .footer-logos img {
 	margin-right: 20px;
 }
+
+
+@media (min-width:768px) and (max-width:1024px) {
+	.main-form {
+		width: 653px;
+		height: 63px;
+		margin: 48px 0 108px 0;
+		display: flex;
+	}
+	.main-scroll {
+		visibility: hidden;
+	}
+	.header-content {
+		width: 95%;
+	}
+	.header-content__links {
+		width: 60%;
+	}
+	.header-content img {
+		width: 170px;
+		height: 15px;
+	}
+	.hero-explore_content {
+		width: 80%;
+		margin-left: 8%;
+	}
+	.hero-explore_content h3 {
+		width: 90%;
+		height: 26px;
+		margin-top: 15px;
+		font-size: 30px;
+		line-height: 25px;
+		color: #FFFFFF;
+	}
+	.hero-explore_content__text {
+		margin-top: 30px;
+		font-size: 13px;
+		line-height: 21px;
+		letter-spacing: 0.6px;
+	}
+	.hero-explore_images {
+		margin-right: 8%;
+	}
+	.explore__image1,
+	.explore__image2 {
+		margin-left: 0;
+	}
+	.icons-search {
+		width: 90%;
+		height: 80%;
+	}
+	.icons-select {
+		width: 90%;
+		height: 80%;
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	.icons-book {
+		width: 90%;
+		height: 80%;
+	}
+	.icons-search img,
+	.icons-select img, 
+	.icons-book img {
+		width: 60%;
+		height: 35%;
+	}
+	.icons-text {
+		font-size: 25px;
+	}
+	.icons-search__text {
+		margin-top: 10%;
+	} 
+	.icons-harku img{
+		width: 68%;
+		height: 95px;
+		margin-left: 0;
+		left: 16%;
+	}
+	.spain-content {
+		margin-left: 5%;
+	}
+	.spain-content2 {
+		margin-right: 5%;
+	}
+	.turist-info {
+		margin: 10% 5% 5% 5%;
+		height: 265px;
+	}
+	.turist-info__img {
+		width: 100%;
+	}
+	.turist-info__img img {
+		width: 345px;
+		height: 100%;
+	}
+	.turist-info-content {
+		width: 100%;
+		height: 100%;
+		padding: 14px 15px 0 14px;
+	}
+	.turist-info-content__title {
+		font-size: 18px;
+	}
+	.turist-info-content__text {
+		width: 100%;
+		height: 83%;
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.turist-info-div {
+		height: 100%;
+	}
+	
+}
