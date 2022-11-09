@@ -192,3 +192,65 @@ main {
 	width: 17px;
 	height: 11px;
 }
+
+.hero-explore {
+	width: 100%;
+	height: 685px;
+	background: url(../img/section2-image.png) no-repeat center;
+	display: flex;
+	align-items: center;
+}
+.explore {
+	width: 100%;
+	height: 450px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.hero-explore_content h3 {
+	width: 288px;
+	height: 26px;
+	margin-top: 120px;
+	font-family: 'Aleo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 26px;
+	color: #FFFFFF;
+}
+.hero-explore_content__text {
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	margin-top: 50px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 1.6px;
+	color: #E8E8E8;
+}
+.btn {
+	width: 181px;
+	height: 28px;
+	padding: 27px 15px 22px 13px;
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Aleo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: #496BFE;
+}
+.explore__image1 {
+	margin-left: 100px;
+}
+.explore__image2 {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
