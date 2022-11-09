@@ -51,9 +51,9 @@ table {
 *,*:before,*:after {
 	box-sizing: border-box;
 }
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
 .container {
     max-width: 1080px;
     width: 100%;
@@ -437,7 +437,6 @@ main {
 	height: 285px;
 	margin-top: 91px;
 	display: grid;
-    background-color: violet;
 	grid-template-columns: 1fr 2fr;
 }
 .turist-info-div {
