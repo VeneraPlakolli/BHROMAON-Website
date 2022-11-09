@@ -254,3 +254,78 @@ main {
 	align-items: center;
 	justify-content: flex-end;
 }
+
+.hero-icons {
+	width: 100%;
+	height: 300px;
+	background: #333333;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.container-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.icons-harku img{
+	position: absolute;
+	top: 5px;
+	width: 730px;
+	height: 95px;
+	margin-left: 150px;
+}
+.icons {
+	width: 1020px;
+	height: 175px;
+	display: flex;
+	align-items: center;
+}
+.icons-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.icons-text {
+	font-family: 'Aleo';
+	font-style: normal;
+	text-align: center;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 26px;
+	color: #E8E8E8;
+}
+.icons-search {
+	width: 343px;
+	height: 163px;
+}
+.icons-search__text {
+	width: 244px;
+	height: 26px;
+	margin-top: 38px;
+	margin-bottom: 10px;
+}
+.icons-select {
+	width: 230px;
+	height: 161px;
+	margin-left: 155px;
+	margin-right: 153px;
+}
+.icons-select__text {
+	width: 230px;
+	height: 26px;
+	margin-top: 30px;
+	margin-bottom: 12px;
+}
+.icons-book {
+	width: 235px;
+	height: 174px;
+}
+.icons-book__text {
+	width: 235px;
+	height: 25px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
