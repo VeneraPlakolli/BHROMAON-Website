@@ -328,6 +328,7 @@ main {
 	margin-left: 150px;
 }
 .icons {
+	margin-top: 30px;
 	width: 1020px;
 	height: 175px;
 	display: -webkit-box;
@@ -763,24 +764,24 @@ footer {
 		font-size: 16px;
 	}
 	.main-form {
-		width: 100%;
+		width: 70%;
 		height: 50px;
 		margin: 48px 0 108px 20%;
 	}
 	.main-form__input{
-		width: 50%;
+		width: 70%;
+		height: 100%;
 		font-size: 10px;
 		letter-spacing: 0.8px;
 	}
 	.main-form__submit {
 		width: 30%;
+		height: 100%;
 		font-size: 12px;
-		padding: 15px 45px 16px 15px;
+		padding: 10px;
 	}
 	.main-form img {
-		width: 18px;
-		height: 20px;
-		margin-top: 6%;
+		visibility: hidden;
 	}
 	.main-scroll {
 		margin: 0;
